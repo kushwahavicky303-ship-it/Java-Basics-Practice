@@ -1,0 +1,20 @@
+package TWODArrays;
+
+public class ArrayQ3 {
+    public static void main(String args[]){
+        System.out.println("welcome to the 2D arrays: ");
+        int[][] arr ={
+                {10, 20, 30},
+                {40, 50, 60},
+                {70, 80, 90}
+        };
+        int sum = 0;
+        for(int i=0; i<arr.length;i++){
+            for(int j=0; j<arr[i].length; j++){
+                sum = sum+arr[i][j];
+            }
+        }
+        System.out.println("sum of 2D arrays: " +sum);
+
+    }
+}
